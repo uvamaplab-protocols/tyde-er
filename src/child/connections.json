@@ -1,15 +1,24 @@
 {
-  "type": "list",
-  "elements": [
-    {
-      "type": "alert",
-      "title": "ED Connect",
-      "message": "Hospital to School Transition Support"
-    },
-    {
-      "type": "epic",
-      "connection_id": "connection_1",
-      "resources": [
+  "connection_1": {
+    "type": "Epic",
+    "scopes": [
+      "offline_access",
+      "launch/patient",
+      "patient/Encounter.read",
+      "openid",
+      "fhirUser"
+    ],
+    "show": [
+      "visits"
+    ],
+    "share_visits": false,
+    "resources": {
+      "title": "Resources",
+      "icon": {
+        "url": "/assets/resources.png",
+        "tint": false
+      },
+      "items": [
         {
           "text": "BTS Crisis and Relapse Plan",
           "description": "A plan for what to do if things get hard again after leaving the hospital.",
@@ -22,5 +31,5 @@
         }
       ]
     }
-  ]
+  }
 }

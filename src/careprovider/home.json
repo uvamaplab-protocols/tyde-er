@@ -1,0 +1,18 @@
+{
+  "type": "list",
+  "elements": [
+    {
+      "type": "alert",
+      "title": "ED Connect",
+      "message": "Hospital to School Transition Support",
+      "icon": {
+        "url": "/assets/ed_connect.png",
+        "tint": false
+      }
+    },
+    {
+      "type": "epic",
+      "connection_id": "connection_1"
+    }
+  ]
+}

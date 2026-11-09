@@ -35,11 +35,11 @@
   "home": {
     "element": {
       "type": "ref",
-      "path": "home_${role}.json"
+      "path": "${role}/home.json"
     }
   },
   "connections": {
     "type": "ref",
-    "path": "connections_${role}.json"
+    "path": "${role}/connections.json"
   }
 }

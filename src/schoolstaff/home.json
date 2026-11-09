@@ -4,11 +4,19 @@
     {
       "type": "alert",
       "title": "ED Connect",
-      "message": "Hospital to School Transition Support"
+      "message": "Hospital to School Transition Support",
+      "icon": {
+        "url": "/assets/ed_connect.png",
+        "tint": false
+      }
     },
     {
       "type": "sublist",
       "title": "Resources",
+      "icon": {
+        "url": "/assets/resources.png",
+        "tint": false
+      },
       "actions": [
         {
           "text": "BIRCh Hospital to School Transition Protocol",
