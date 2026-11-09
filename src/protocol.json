@@ -1,34 +1,34 @@
 {
   "message_rules": [
     {
-      "from_role": "Patient",
+      "from_role": "Child",
       "direct_to_roles": [
         "CareProvider",
-        "Guardian"
+        "SchoolStaff"
       ]
     },
     {
       "from_role": "CareProvider",
       "can_create_groups": true,
       "direct_to_roles": [
-        "Patient",
-        "Guardian"
+        "Child",
+        "SchoolStaff"
       ],
       "group_member_roles": [
-        "Patient",
-        "Guardian"
+        "Child",
+        "SchoolStaff"
       ]
     },
     {
-      "from_role": "Guardian",
+      "from_role": "SchoolStaff",
       "can_create_groups": true,
       "direct_to_roles": [
-        "CareProvider",
-        "Patient"
+        "Child",
+        "CareProvider"
       ],
       "group_member_roles": [
-        "CareProvider",
-        "Patient"
+        "Child",
+        "CareProvider"
       ]
     }
   ],

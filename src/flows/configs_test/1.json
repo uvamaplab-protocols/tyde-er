@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Testing only: choose the role to test as. In the study the role comes from the invitation."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Child::Child",
+                "CareProvider::Care provider",
+                "SchoolStaff::School staff"
+            ],
+            "variable_name": "role:x",
+            "output_name": "config_role"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

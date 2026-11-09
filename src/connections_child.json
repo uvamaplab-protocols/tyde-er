@@ -10,6 +10,7 @@
     ],
     "show": [
       "visits"
-    ]
+    ],
+    "share_visits": false
   }
 }

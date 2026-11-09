@@ -1,0 +1,28 @@
+{
+  "type": "list",
+  "elements": [
+    {
+      "type": "alert",
+      "title": "ED Connect",
+      "message": "Hospital to School Transition Support"
+    },
+    {
+      "type": "sublist",
+      "title": "Resources",
+      "actions": [
+        {
+          "text": "BIRCh Hospital to School Transition Protocol",
+          "action": "document://assets/resources/birch_hospital_to_school_transition_protocol.pdf"
+        },
+        {
+          "text": "School Re-Entry Guidelines",
+          "action": "document://assets/resources/school_reentry_guidelines.pdf"
+        },
+        {
+          "text": "UNC School Re-Entry Guidelines",
+          "action": "document://assets/resources/unc_school_reentry_guidelines.pdf"
+        }
+      ]
+    }
+  ]
+}

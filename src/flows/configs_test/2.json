@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Testing only: enter the school to test as. In the study the school comes from the invitation. Use the same spelling on every account that should see each other."
+        },
+        {
+            "type": "Entry",
+            "placeholder": "School name",
+            "variable_name": "global:school",
+            "output_name": "config_school"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}
