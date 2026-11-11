@@ -11,7 +11,7 @@
                 "CareProvider::Care provider",
                 "SchoolStaff::School staff"
             ],
-            "variable_name": "role:x",
+            "variable_name": "role:type",
             "output_name": "config_role"
         }
     ],

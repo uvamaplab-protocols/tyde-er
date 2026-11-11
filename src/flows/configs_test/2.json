@@ -2,12 +2,15 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Testing only: enter the school to test as. In the study the school comes from the invitation. Use the same spelling on every account that should see each other."
+            "text": "Testing only: choose the school to test as. In the study it comes from the invitation as a school role. You will only be able to message people at the same school."
         },
         {
-            "type": "Entry",
-            "placeholder": "School name",
-            "variable_name": "global:school",
+            "type": "Buttons",
+            "buttons": [
+                "school:lincoln::Lincoln High School",
+                "school:jefferson::Jefferson High School"
+            ],
+            "variable_name": "role:school",
             "output_name": "config_school"
         }
     ],

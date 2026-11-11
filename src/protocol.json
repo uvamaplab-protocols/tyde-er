@@ -5,6 +5,9 @@
       "direct_to_roles": [
         "CareProvider",
         "SchoolStaff"
+      ],
+      "same_roles": [
+        "school"
       ]
     },
     {
@@ -17,6 +20,9 @@
       "group_member_roles": [
         "Child",
         "SchoolStaff"
+      ],
+      "same_roles": [
+        "school"
       ]
     },
     {
@@ -29,6 +35,9 @@
       "group_member_roles": [
         "Child",
         "CareProvider"
+      ],
+      "same_roles": [
+        "school"
       ]
     }
   ],
