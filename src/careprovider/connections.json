@@ -13,6 +13,9 @@
     "show": [
       "visits"
     ],
+    "visit_types": [
+      "emergency"
+    ],
     "share_visits": true,
     "resources": {
       "title": "Resources",
@@ -52,6 +55,9 @@
     ],
     "show": [
       "visits"
+    ],
+    "visit_types": [
+      "emergency"
     ],
     "share_visits": true,
     "resources": {
