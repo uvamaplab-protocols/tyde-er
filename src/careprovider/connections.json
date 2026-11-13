@@ -13,7 +13,7 @@
     "show": [
       "visits"
     ],
-    "share_visits": false,
+    "share_visits": true,
     "resources": {
       "title": "Resources",
       "icon": {
@@ -53,7 +53,7 @@
     "show": [
       "visits"
     ],
-    "share_visits": false,
+    "share_visits": true,
     "resources": {
       "title": "Resources",
       "icon": {
