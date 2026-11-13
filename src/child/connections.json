@@ -7,7 +7,8 @@
       "launch/patient",
       "patient/Encounter.read",
       "openid",
-      "fhirUser"
+      "fhirUser",
+      "offline_access"
     ],
     "show": [
       "visits"
@@ -41,7 +42,8 @@
       "launch/patient",
       "patient/Encounter.read",
       "openid",
-      "fhirUser"
+      "fhirUser",
+      "offline_access"
     ],
     "show": [
       "visits"
