@@ -1,6 +1,47 @@
 {
-  "connection_1": {
+  "epic_uva": {
     "type": "Epic",
+    "title": "UVA Health",
+    "hospital": "https://hscsesoap.hscs.virginia.edu/FHIRProxy/api/FHIR/R4",
+    "scopes": [
+      "launch/patient",
+      "patient/Encounter.read",
+      "openid",
+      "fhirUser"
+    ],
+    "show": [
+      "visits"
+    ],
+    "share_visits": false,
+    "resources": {
+      "title": "Resources",
+      "icon": {
+        "url": "/assets/resources.png",
+        "tint": false
+      },
+      "items": [
+        {
+          "text": "BTS Crisis and Relapse Plan",
+          "description": "A plan for recognizing warning signs and responding to a crisis or relapse at home.",
+          "action": "document://assets/resources/bts_crisis_and_relapse_plan.pdf"
+        },
+        {
+          "text": "School Re-Entry Guidelines",
+          "description": "Guidance for supporting your child's return to school after an emergency department visit.",
+          "action": "document://assets/resources/school_reentry_guidelines.pdf"
+        },
+        {
+          "text": "UNC School Re-Entry Guidelines",
+          "description": "UNC's guidelines for a smooth transition from hospital back to school.",
+          "action": "document://assets/resources/unc_school_reentry_guidelines.pdf"
+        }
+      ]
+    }
+  },
+  "epic_denver": {
+    "type": "Epic",
+    "title": "Denver Health",
+    "hospital": "https://webservices.dhha.org/PRD-FHIR/api/FHIR/R4",
     "scopes": [
       "launch/patient",
       "patient/Encounter.read",

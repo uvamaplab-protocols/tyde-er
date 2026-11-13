@@ -12,7 +12,11 @@
     },
     {
       "type": "epic",
-      "connection_id": "connection_1"
+      "connection_id": "epic_uva"
+    },
+    {
+      "type": "epic",
+      "connection_id": "epic_denver"
     }
   ]
 }

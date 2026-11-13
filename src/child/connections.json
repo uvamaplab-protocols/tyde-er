@@ -1,6 +1,42 @@
 {
-  "connection_1": {
+  "epic_uva": {
     "type": "Epic",
+    "title": "UVA Health",
+    "hospital": "https://hscsesoap.hscs.virginia.edu/FHIRProxy/api/FHIR/R4",
+    "scopes": [
+      "launch/patient",
+      "patient/Encounter.read",
+      "openid",
+      "fhirUser"
+    ],
+    "show": [
+      "visits"
+    ],
+    "share_visits": false,
+    "resources": {
+      "title": "Resources",
+      "icon": {
+        "url": "/assets/resources.png",
+        "tint": false
+      },
+      "items": [
+        {
+          "text": "BTS Crisis and Relapse Plan",
+          "description": "A plan for what to do if things get hard again after leaving the hospital.",
+          "action": "document://assets/resources/bts_crisis_and_relapse_plan.pdf"
+        },
+        {
+          "text": "UNC School Re-Entry Guidelines",
+          "description": "What to expect when going back to school after a hospital visit.",
+          "action": "document://assets/resources/unc_school_reentry_guidelines.pdf"
+        }
+      ]
+    }
+  },
+  "epic_denver": {
+    "type": "Epic",
+    "title": "Denver Health",
+    "hospital": "https://webservices.dhha.org/PRD-FHIR/api/FHIR/R4",
     "scopes": [
       "launch/patient",
       "patient/Encounter.read",
